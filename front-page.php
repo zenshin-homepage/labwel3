@@ -70,7 +70,7 @@
                             共同生活援助（グループホーム）
                             <span class="h2-large">Group Home</span><br>
                         </h2>
-                        <h2 class="f-section-h2">
+                        <h2 class="f-section-h2 fadein">
                             LIFE Ipppo!和久野<br>
                             <span class="h2-small">group home</span>
                         </h2>
@@ -100,6 +100,44 @@
                 </div>
             </section>
 			<!-- 相談支援セクション終了 -->
+			<!-- 地域活動支援センター開始 -->
+            <section class="f-section casc">
+                <div class="container">
+                    <div class="f-section-inner fadein">
+                        <h2 class="f-section-h2 fadein">
+                            地域活動支援センター
+                            <span class="h2-large" >Community Activity<br>Support Center</span><br>
+                        </h2>
+                        <h2 class="f-section-h2 fadein">
+                            ラボカフェ<br>
+                            <span class="h2-small">Community Activity Support Center</span>
+						</h2>
+                        <img src="https://labwel.jp/wp-content/uploads/2025/03/0e319e60dd411453426b93a50f3f1dcc.jpg"alt="地域活動支援センター"loading="lazy" class="f-section-image1 fadein">
+                        <p class="f-content-p mt100 fadein">障がいをもつ方々が安心して自分らしく過ごせるカフェのような支援センターです。</p>
+                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#Community_Activity_Support_Center')); ?>" target="_blank">詳しくはこちら</a></button>
+                    </div>
+                </div>
+            </section>
+			<!-- 地域活動支援センター終了 -->
+			<!-- 居宅介護開始 -->
+            <section class="f-section homecare">
+                <div class="container">
+                    <div class="f-section-inner f-section-inner2 fadein">
+                        <h2 class="f-section-h2 fadein">
+						居宅介護
+                        <span class="h2-large">Home Care</span><br>
+                        </h2>
+                        <h2 class="f-section-h2">
+						CareLAB<br>
+                            <span class="h2-small">Home Care</span>
+						</h2>
+                        <!-- <img src="https://labwel.jp/wp-content/uploads/2022/05/464fe7a43049d43c9bc09d40ceddba64.jpg" alt="指定特定相談事業所" loading="lazy" class="f-section-image2 fadein"> -->
+                        <p class="f-contenr-p mt100 fadein">準備中です。</p>
+                        <!-- <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('#')); ?>" target="_blank">詳しくはこちら</a></button> -->
+                    </div>
+                </div>
+            </section>
+			<!-- 居宅介護終了 -->
             <section class="f-section">
                 <!-- 第３セクション -->
                 <div class="container">
@@ -113,13 +151,15 @@
                         <div class="flex-item flex-item1 lg__w33 fadein">
                             <a href="<?php echo esc_url(home_url('works#coast-cleaning')); ?>">
                                 <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃">
-                                <h3>海岸清掃</h3>
+                            <!--
+								<h3>海岸清掃</h3>
                                 <p class="gallery-more">READ MORE&nbsp;>></p>
                             </a>
                         </div>
                         <div class="flex-item flex-item2 lg__w33 fadein delay1">
                             <a href="<?php echo esc_url(home_url('works#waste-gathering')); ?>">
-                                <img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集">
+                                <img src="<?php echo esc_url(get_theme_file_uri('https://labwel.jp/wp-content/uploads/2022/05/S__2818103.jpg')); ?>" loading="lazy" alt="戸別収集">
+-->
                                 <h3>戸別収集</h3>
                                 <p class="gallery-more">READ MORE&nbsp;>></p>
                             </a>
@@ -147,6 +187,7 @@
                         </div>
                         <div class="flex-item flex-item6 lg__w33 fadein">
                             <a href="<?php echo esc_url(home_url('work#kelp-selling')); ?>">
+								<!--
                                 <img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" loading="lazy" alt="おぼろ昆布・加工販売">
                                 <h3>おぼろ昆布・加工販売</h3>
                                 <p class="gallery-more">READ MORE&nbsp;>></p>
@@ -154,6 +195,7 @@
                         </div>
                         <div class="flex-item flex-item7 lg__w33 fadein delay1">
                             <a href="<?php echo esc_url(home_url('work#lunchbox')); ?>">
+-->
                                 <img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" loading="lazy" alt="弁当・調理販売">
                                 <h3>弁当・調理販売</h3>
                                 <p class="gallery-more">READ MORE&nbsp;>></p>

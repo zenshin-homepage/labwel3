@@ -409,6 +409,85 @@ get_header(); ?>
 	
 	<!-- 相談支援セクションここまで -->
 
+
+    <!-- 地域生活支援セクション -->
+	
+    <section class="section">
+        <div class="container">
+            <h2 id="Community_Activity_Support_Center" class="f-section-h2 fadein">
+			地域生活支援センター<span class="h2-large">Community Activity Support Center</span>
+            </h2>
+            <h2 class="f-section-h2 fadein">ラボカフェ</h2>
+            <div class="section-boxright fadein">
+                <img src="https://labwel.jp/wp-content/uploads/2025/03/0e319e60dd411453426b93a50f3f1dcc.jpg" alt="" loading="lazy">
+            </div>
+            <div class="section-boxleft fadein">
+                <p class="mt100">地域の特性やニーズに応じた創作的な活動や生産活動、社会とのつながり作りなど、色々な活動を行いながら、社会参加を進めていきます。ゆっくりと過ごす場所が欲しい、仲間と出会う場が欲しいなどの希望のある方におススメです。</p>
+            </div>
+            <div class="clearfix"></div>
+            <h2 class="page-article-title mt100 fadein">
+                サービス利用開始までの流れ
+            </h2>
+        </div>
+        <ul class="side-scroll-content mt40 fadein">
+            <li class="scroll-content-card">
+				<p class="content-card-title">1.ラボカフェへのご見学</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+					<p>施設の見学やお試し利用が出来ます。事前に見学・体験の日をご連絡ください。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+				<p class="content-card-title">2.各市町村への申請・承認</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam5.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner" style="margin-top: 30px;">
+					<p>各市町村へ申請し、承認を待ちます。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+				<p class="content-card-title">3.ラボカフェと契約</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+					<p>利用にあたっての説明を受け契約を行います。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+				<p class="content-card-title">3.ラボカフェと契約</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+					<p>利用手続きが完了後、施設をご利用できます。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="container">
+            <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <table class="office-address mt50 fadein">
+                        <thead>
+                            <tr>
+                                <th colspan="2">ラボカフェ</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市野神2-34-2</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6984</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- 地域生活支援セクションここまで -->
+
 </main><!-- main end -->
 
 <?php get_footer(); ?>
