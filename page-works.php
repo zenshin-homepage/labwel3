@@ -191,7 +191,15 @@ get_header(); ?>
                 </h2>
             </div>
         </header>
-        <div class="flex-box works-gallery">
+        <div class="flex-box works-gallery d-none d-lg-flex">
+            <div class="flex-item flex-item-text fadein">
+                <p>LABwelの調理のプロがお客様のご要望に合わせてお弁当を調理、販売しております。お弁当の内容や価格などもご相談承ります。</p>
+            </div>
+            <div class="flex-item flex-item-img fadein">
+                <img src="https://labwel.jp/wp-content/uploads/2022/06/fb53e8fd9a66cfacc82a3c1b9b927db0.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+        <div class="flex-box works-gallery d-xl-none d-md-flex">
             <div class="flex-item flex-item-img fadein">
                 <img src="https://labwel.jp/wp-content/uploads/2022/06/fb53e8fd9a66cfacc82a3c1b9b927db0.jpg" alt="" loading="lazy">
             </div>
@@ -207,15 +215,7 @@ get_header(); ?>
                 </h2>
             </div>
         </header>
-        <div class="flex-box works-gallery d-none d-lg-flex">
-            <div class="flex-item flex-item-text fadein">
-                <p>会社の駐車場の除草作業、一般家庭のお庭の草むしり・剪定作業など特殊な清掃も行っております。</p>
-            </div>
-            <div class="flex-item flex-item-img fadein">
-                <img src="https://labwel.jp/wp-content/uploads/2022/05/S__24084504.jpg" alt="" loading="lazy">
-            </div>
-        </div>
-        <div class="flex-box works-gallery d-xl-none d-md-flex">
+        <div class="flex-box works-gallery">
             <div class="flex-item flex-item-img fadein">
                 <img src="https://labwel.jp/wp-content/uploads/2022/05/S__24084504.jpg" alt="" loading="lazy">
             </div>

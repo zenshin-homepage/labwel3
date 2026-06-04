@@ -13,7 +13,7 @@ get_header(); ?>
             <?php the_post(); // データ1件分を取り出して渡す 
             ?>
             <!-- ループ内で繰り返し表示させる要素（ブログ記事など） -->
-        <?php endwhile; //　投稿ループ終了
+        <?php endwhile; // 投稿ループ終了
         ?>
     <?php else : //もし表示すべき投稿が無かったら 
     ?>
@@ -34,8 +34,9 @@ get_header(); ?>
 
         <div class="container">
             <div class="col-12 justify-content-center mt100">
-                <h3 class="description-heading fadein">株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
-                </h3>
+                <p class="description-heading fadein">
+                    株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
+                </p>
             </div>
 
             <h2 title class="page-article-title mt100 fadein 576space">
@@ -49,7 +50,7 @@ get_header(); ?>
                         <tbody>
                             <tr>
                                 <td>会社名</td>
-                                <td>株式会社　LABwel</td>
+                                <td>株式会社 LABwel</td>
                             </tr>
                             <tr>
                                 <td>代表者名</td>
@@ -92,9 +93,9 @@ get_header(); ?>
                 経営理念<br>
                 <span class="suffix">Mission</span>
             </h2>
-            <h3 class="description-heading fadein">
+            <p class="description-heading fadein">
                 お客様の満足に貢献し、障がい者の満足を追求し、地域社会に貢献する。
-            </h3>
+            </p>
         </div>
 
         <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100 fadein" loading="lazy">
@@ -112,34 +113,34 @@ get_header(); ?>
                     <table class="info-table">
                         <tbody>
                             <tr>
-                                <td>平成27年7月</td>
-                                <td>株式会社　LABwel　設立</td>
+                                <td>平成27年<br class="d-sm-none">7月</td>
+                                <td>株式会社 LABwel 設立</td>
                             </tr>
                             <tr>
                                 <td>同年</td>
-                                <td>事業所　Ipppo!　設立</td>
+                                <td>事業所 Ipppo! 設立</td>
                             </tr>
                             <tr>
-							    <td>平成28年7月</td>
-                                <td>事業所　+Ipppo!　設立</td>
-							</tr>
-							<tr>
-                                <td>令和元年</td>
-                                <td>事業所　+Ipppo!にてB型事業所開始</td>
+                                <td>平成28年<br class="d-sm-none">7月</td>
+                                <td>事業所 +Ipppo! 設立</td>
                             </tr>
-							<tr>
-							    <td>令和2年10月</td>
-                                <td>事業所　Be Ipppo!　設立</td>
-							</tr>
-							<tr>
-							    <td>令和3年2月</td>
-                                <td>共同生活援助(グループホーム) LIFE Ipppo!和久野　開所</td>
-							</tr>
-							<tr>
-							    <td>令和4年1月</td>
-                                <td>指定特定相談支援事業所 らぼうぇる　開所</td>
-							</tr>
-                        </tbody>
+                            <tr>
+                                <td>令和元年</td>
+                                <td>事業所 +Ipppo!にて<br class="d-sm-none">B型事業所開始</td>
+                            </tr>
+                            <tr>
+                                <td>令和2年<br class="d-sm-none">10月</td>
+                                <td>事業所 Be Ipppo! 設立</td>
+                            </tr>
+                            <tr>
+                                <td>令和3年<br class="d-sm-none">2月</td>
+                                <td>共同生活援助(グループホーム) LIFE Ipppo!和久野 開所</td>
+                            </tr>
+                            <tr>
+                                <td>令和4年<br class="d-sm-none">1月</td>
+                                <td>指定特定相談支援事業所 <br class="d-sm-none">らぼうぇる 開所</td>
+                            </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>

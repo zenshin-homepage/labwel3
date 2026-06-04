@@ -3,7 +3,7 @@
             <!-- main start▼ -->
             <section class="f-news mx-4 mx-lg-auto">
                 <header>
-                    <h4 class="text-center my-5 py-3">最新情報</h4>
+                    <h2 class="f-news-header">最新情報</h2>
                 </header>
                 <div>
                     <?php
@@ -33,7 +33,7 @@
                 </div>
             </section>
             <section class="f-section">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner fadein">
                         <h2 class="f-section-h2 fadein">
                             就労継続支援A型事業所
@@ -41,14 +41,16 @@
                             <span class="h2-small">type A</span>
                         </h2>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1 fadein">
-                        <p class="f-content-p mt100 fadein">やりがいの見つかるA型</p>
-                        <p class="f-content-p mt100 fadein">バリエーション豊富なお仕事だから、自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
-                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typea')); ?>" target="_blank">詳しくはこちら</a></button>
+                        <div class="fadein">
+                            <p class="f-content-p">やりがいの見つかるA型</p>
+                            <p class="f-content-p">バリエーション豊富なお仕事だから、自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('office-guide#typea')); ?>" target="_blank">詳しくはこちら</a></button>
                     </div>
                 </div>
             </section><!-- 第一セクション終了 -->
             <section class="f-section">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner f-section-inner2 fadein">
                         <h2 class="f-section-h2 fadein">
                             就労継続支援B型事業所
@@ -56,84 +58,82 @@
                             <span class="h2-small">type B</span>
                         </h2>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2 fadein">
-                        <p class="f-contenr-p mt100 fadein">自分の居場所が見つかるB型</p>
-                        <p class="f-content-p mt100 fadein">みんなとお仕事するのが楽しくなる。</p>
-                        <p class="f-contenr-p fadein">そんな働きやすい環境と楽しい人間関係づくりこだわりました。</p>
-                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typeb')); ?>" target="_blank">詳しくはこちら</a></button>
+                        <div class="fadein">
+                            <p class="f-contenr-p">自分の居場所が見つかるB型</p>
+                            <p class="f-content-p">みんなとお仕事するのが楽しくなる。<br>そんな働きやすい環境と楽しい人間関係づくりにこだわりました。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('office-guide#typeb')); ?>" target="_blank">詳しくはこちら</a></button>
                     </div>
                 </div>
             </section><!-- 第2セクション終了 -->
             <section class="f-section">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner fadein">
                         <h2 class="f-section-h2 fadein">
-                            共同生活援助（グループホーム）
+                            共同生活援助（グループホーム）<br>LIFE Ipppo!和久野
                             <span class="h2-large">Group Home</span><br>
-                        </h2>
-                        <h2 class="f-section-h2 fadein">
-                            LIFE Ipppo!和久野<br>
+                            
                             <span class="h2-small">group home</span>
                         </h2>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="LIFE Ipppo和久野" loading="lazy" class="f-section-image1 fadein">
-                        <p class="f-content-p mt100 fadein">自分の住む場所が見つかる『グループホーム』</p>
-                        <p class="f-content-p mt100 fadein">住みやすい環境と安心を与えられる家づくりにこだわりました。</p>
-                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#grouphome')); ?>" target="_blank">詳しくはこちら</a></button>
+                        <div class="fadein">
+                            <p class="f-content-p">自分の住む場所が見つかる『グループホーム』</p>
+                            <p class="f-content-p">住みやすい環境と安心を与えられる家づくりにこだわりました。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('office-guide#grouphome')); ?>" target="_blank">詳しくはこちら</a></button>
                     </div>
                 </div>
             </section>
 			<!-- 相談支援セクション開始 -->
 			 <section class="f-section consultation">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner f-section-inner2 fadein">
                         <h2 class="f-section-h2 fadein">
-						指定特定相談支援事業所
-                        <span class="h2-large">Consultation office</span><br>
-                        </h2>
-                        <h2 class="f-section-h2">
-						らぼうぇる<br>
+    						指定特定相談支援事業所<br>らぼうぇる
+                            <span class="h2-large">Consultation office</span><br>
                             <span class="h2-small">Consultation office</span>
 						</h2>
                         <img src="https://labwel.jp/wp-content/uploads/2022/05/464fe7a43049d43c9bc09d40ceddba64.jpg" alt="指定特定相談事業所" loading="lazy" class="f-section-image2 fadein">
-                        <p class="f-contenr-p mt100 fadein">障害のある方とそのご家族等のための地域で安心して暮らせるための相談窓口です。</p>
-                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#Consultation_office')); ?>" target="_blank">詳しくはこちら</a></button>
+                        <div class="fadein">
+                            <p class="f-content-p">障害のある方とそのご家族等のための地域で安心して暮らせるための相談窓口です。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('office-guide#Consultation_office')); ?>" target="_blank">詳しくはこちら</a></button>
                     </div>
                 </div>
             </section>
 			<!-- 相談支援セクション終了 -->
 			<!-- 地域活動支援センター開始 -->
             <section class="f-section casc">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner fadein">
                         <h2 class="f-section-h2 fadein">
-                            地域活動支援センター
+                            地域活動支援センター<br>ラボカフェ
                             <span class="h2-large" >Community Activity<br>Support Center</span><br>
-                        </h2>
-                        <h2 class="f-section-h2 fadein">
-                            ラボカフェ<br>
                             <span class="h2-small">Community Activity Support Center</span>
 						</h2>
                         <img src="https://labwel.jp/wp-content/uploads/2025/03/0e319e60dd411453426b93a50f3f1dcc.jpg"alt="地域活動支援センター"loading="lazy" class="f-section-image1 fadein">
-                        <p class="f-content-p mt100 fadein">障がいをもつ方々が安心して自分らしく過ごせるカフェのような支援センターです。</p>
-                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#Community_Activity_Support_Center')); ?>" target="_blank">詳しくはこちら</a></button>
+                        <div class="fadein">
+                            <p class="f-content-p">障がいをもつ方々が安心して自分らしく過ごせるカフェのような支援センターです。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('office-guide#Community_Activity_Support_Center')); ?>" target="_blank">詳しくはこちら</a></button>
                     </div>
                 </div>
             </section>
 			<!-- 地域活動支援センター終了 -->
 			<!-- 居宅介護開始 -->
             <section class="f-section homecare">
-                <div class="container">
+                <div class="f-container">
                     <div class="f-section-inner f-section-inner2 fadein">
                         <h2 class="f-section-h2 fadein">
-						居宅介護
-                        <span class="h2-large">Home Care</span><br>
-                        </h2>
-                        <h2 class="f-section-h2">
-						CareLAB<br>
+                            居宅介護<br>CareLAB
+                            <span class="h2-large">Home Care</span><br>
                             <span class="h2-small">Home Care</span>
 						</h2>
                         <!-- <img src="https://labwel.jp/wp-content/uploads/2022/05/464fe7a43049d43c9bc09d40ceddba64.jpg" alt="指定特定相談事業所" loading="lazy" class="f-section-image2 fadein"> -->
-                        <p class="f-contenr-p mt100 fadein">準備中です。</p>
-                        <!-- <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('#')); ?>" target="_blank">詳しくはこちら</a></button> -->
+                        <div class="fadein">
+                            <p class="f-content-p">準備中です。</p>
+                        </div>
+                        <button class="f-button fadein"><a href="<?php echo esc_url(home_url('#')); ?>">準備中です。</a></button>
                     </div>
                 </div>
             </section>

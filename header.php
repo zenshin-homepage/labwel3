@@ -64,7 +64,7 @@
             <h1 class="policy-heading"></h1>
             <!-- header start▼ -->
             <div class="container-fluid">
-                <div class="row align-content-center">
+                <div class="header-wrapper">
                     <div class="nav-wrap transparent">
                         <div class="container">
                             <nav class="flex-box">
@@ -109,7 +109,7 @@
             </div>
             <?php else : ?>
                     <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->
-                    <img class="header-img" src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
+                    <img class="header-img" src="https://labwel.jp/wp-content/uploads/2023/02/c51a508003172796a93ee3ac0f28b565.jpg" alt="メインイメージ｜海岸清掃" loading="lazy">
                 </div>
             </div>
             <div class="angle-wrap">

@@ -36,6 +36,9 @@
 	.mt100 {
 		margin-top: 50px;
 	}
+	.mb100 {
+		margin-bottom: 50px;
+	}
 
 	.flex-box .lg__w50 {
 		width: 50%;
@@ -44,7 +47,7 @@
 
 @media screen and (max-width: 576px) {
 	html {
-		font-size: 11px;
+		font-size: 16px;
 	}
 	.col2 {
 		grid-column-end: span 1;
@@ -80,6 +83,10 @@
 	.small-header{
 		height: calc(100vw / 1280 * 100);
 		min-height: 50px;
+	}
+	.header-wrapper {
+		display: flex;
+		margin: 0 -15px;
 	}
 }
 
@@ -338,31 +345,83 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
 	.h2-large {
 		font-size: 60px;
-		letter-spacing: inherit;
-		bottom: 0;
+		top: -50px;
 	}
-
 	.f-section-inner {
-		width: 100%;
-		height: 950px;
+		width: min(480px, 90%);
+		height: auto;
+		min-height: 500px;
+		padding: 40px;
 	}
 
 	.f-section-image1 {
-		position: static;
-		margin-top: 50px;
-	}
-
-	.f-section-inner2 {
-		margin-left: 0;
+		left: 460px;
+		width: min(480px, calc(100vw - 460px));
 	}
 
 	.f-section-image2 {
-		position: static;
-		margin-top: 50px;
+		right: 460px;
+		width: min(480px, calc(100vw - 460px));
 	}
+}
+@media screen and (max-width: 768px) {
+	.f-news-header {
+		font-size: 20px;
+		margin: 0;
+	}
+	.f-news .news-more {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.h2-large {
+		width: 100%;
+		font-size: 40px;
+		top: -40px;
+		text-align: end;
+	}
+
+	.f-section-inner {
+		width: 90%;
+		height: auto;
+		min-height: 400px;
+		margin: 0 auto;
+		padding: 32px 20px;
+		gap: 20px;
+	}
+
+	.f-section-inner2 {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.f-section-image1,
+	.f-section-image2 {
+		position: static;
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	.f-content-p {
+		width: 100%;
+	}
+
+
+	.f-button {
+		width: 100%;
+		height: auto;
+		min-height: 54px;
+	}
+	.f-button > a,
+	.f-contact {
+		padding: 16px 40px;
+		display: block;
+		text-align: center;
+	}
+
 	/* 仕事の一覧 */
 	.f-work-gallery1 {
 		flex: 1 1 auto;
@@ -371,63 +430,43 @@
 	.f-work-gallery1 .flex-item {
 		width: 50%;
 	}
-	/* 事務所のご案内 */
-	.section-boxleft {
-		width: 100%;
-		float: none;
-	}
-	.section-boxright {
-		width: 100%;
-		float: none;
-	}
-	.section-boxright img {
-		position: static;
-	}
-	/* 事業一覧 */
-	.works-header {
-		min-height: 150px;
-	}
 
-	.works-heading {
-		top: 50px;
-	}
 }
 @media screen and (max-width: 576px) {
 	.f-section-inner {
-		padding-left: 15px;
-		padding-right: 15px;
-		height: 800px;
+		width: 100%;
+		height: auto;
+		padding: 24px 16px;
 	}
 	
-	.h2-large {
-		font-size: 40px;
-		bottom: 0;
-		letter-spacing: inherit;
-		word-break: keep-all;
-		width: 100%;
+	.f-section-h2 {
+		font-size: 20px;
 	}
-	.consultation .h2-large{
-		font-size: 32px;
-		bottom: 5px;
-		text-align: start;
+
+	.h2-large {
+		/* top: auto;
+		bottom: 0;
+		font-size: 28px;
+		width: 100%;
+		text-align: end;
+		color: #DDD;
+		line-height: 1.2; */
+		display: none;
 	}
 	.h2-small {
 		bottom: -15px;
-		font-size: 8px;
+		font-size: 12px;
 	}
 	.f-content-p {
 		width: 100%;
 		word-break: normal;
 	}
 
-	.f-button {
-		width: 240px;
-		height: 50px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.f-button > a {
-		padding: 20px 55px;
+		
+	.f-button > a,
+	.f-contact {
+		padding: 14px 24px;
+		font-size: 15px;
 	}
 
 	.f-work-gallery1 .flex-item a h3 {
@@ -461,16 +500,51 @@
 }
 
 @media screen and (max-width: 990px) {
+	.section {
+		padding-bottom: 150px;
+	}
 	/* 事務所のご案内 */
 	#Consultation_office .h2-large{
 		letter-spacing: 0;
 	}
+	.section-boxleft {
+		width: 50%;
+		grid-template-columns: auto;
+	}
+	.section-boxright {
+		width: 50%;
+	}
+	.side-scroll-content {
+		justify-content: center;
+		gap: 20px;
+	}
 }
 
 @media screen and (max-width: 768px) {
-	.scroll-content-card {
-		margin-left: 40px;
-		margin-bottom: 40px;
+	.page-title {
+		font-size: 24px;
+	}
+	.page-article-title {
+		font-size: 20px;
+	}
+
+	/* 会社情報 */
+	.description-heading {
+		font-size: 20px;
+		width: 100%;
+	}
+	.info-table {
+		font-size: 16px;
+	}
+	.info-table tr {
+		height: 80px;
+	}
+	.info-table tr td:nth-child(odd) {
+		width: 33%;
+	}
+	.info-table tr td:nth-child(even) {
+		width: 67%;
+		padding-left: 20px;
 	}
 
 	/* 事業一覧 */
@@ -480,13 +554,45 @@
 	}
 
 	/* 事務所のご案内 */
+	.section-boxleft {
+		width: 100%;
+		float: none;
+		padding-right: 0;
+		padding-bottom: 40px;
+		min-height: initial;
+	}
+	.section-boxright {
+		width: 100%;
+		float: none;
+	}
+	.section-boxright img {
+		position: static;
+	}
+	.side-scroll-content {
+		gap: 20px 10px;
+	}
 	#Consultation_office .h2-large{
 		font-size: 50px;
 		bottom: 5px;
 	}
+	/* 事業一覧 */
+	.works-header {
+		min-height: 150px;
+	}
+
+	.works-heading {
+		top: 50px;
+	}
 }
 
 @media screen and (max-width: 576px) {
+	.section {
+		padding-top: 40px;
+		padding-bottom: 60px;
+	}
+	.section:last-child {
+		padding-bottom: 100px;
+	}
 	/* 会社情報 */
 	.description-table .flex-item {
 		width: 100%;
@@ -555,15 +661,10 @@
 		padding-top: 40px;
 	}
 
-	.footer-nav {
-		width: 80%;
-		margin-top: 50px;
-	}
 	.footer-nav > li {
 		width: 100%;
 		padding-top: 15px;
 		text-align: right;
-		font-size: 120%;
 		font-weight: 600;
 	}
 }

@@ -24,12 +24,12 @@ get_header(); ?>
 
     <section class="section"><!-- A型紹介セクション -->
         <div class="container">
-            <h2 id="typea" class="f-section-h2 fadein">
+            <h2 id="typea" class="page-title fadein">
                 A型事業所
                 <span class="h2-large">Type A</span>
             </h2>
             <div class="section-boxright fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy" class="mt100">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="section-boxleft grid-box fadein">
                 <div class="box-item box-item1 fadein">
@@ -51,13 +51,13 @@ get_header(); ?>
             </div>
             <div class="clearfix"></div>
 
-            <h2 class="page-article-title mt100 fadein">
+            <h2 class="page-article-title fadein">
                 サービス利用開始までの流れ
             </h2>
         </div>
 
-        <ul class="side-scroll-content mt40 fadein">
-            <li class="scroll-content-card">
+        <div class="container side-scroll-content mt40 fadein">
+            <div class="scroll-content-card">
                 <p class="content-card-title">1.ハローワークからの紹介</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
@@ -65,31 +65,31 @@ get_header(); ?>
                     </p>
                     <p>※面接の前に見学をしてもらうことも可能です。</p>
                 </div>
-            </li>
-            <li class="scroll-content-card">
+            </div>
+            <div class="scroll-content-card">
                 <p title class="content-card-title">2.事業所との面接</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam5.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
                     <p description>面接を行います。アセスメントの日程調整も行います。</p>
                     <p description>持ち物として履歴書、紹介状、医師の診断書が必要になります。</p>
                 </div>
-            </li>
-            <li class="scroll-content-card">
+            </div>
+            <div class="scroll-content-card">
                 <p title class="content-card-title">3.事業所でのアセスメント</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam3.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
                     <p description>職場を体験していただきます。</p>
                     <p description>なおこの期間は賃金は発生いたしません。</p>
                 </div>
-            </li>
-            <li class="scroll-content-card">
+            </div>
+            <div class="scroll-content-card">
                 <p title class="content-card-title">4.採用通知および、ご利用手続き</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
                     <p description>採用通知が届いた場合、各市町や、相談支援事業所などと連絡を取り、受給者証発行の 手続きを行ないます。</p>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
         <div class="container">
             <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
             <div class="row">
@@ -172,7 +172,7 @@ get_header(); ?>
                 サービス利用開始までの流れ
             </h2>
         </div>
-        <ul class="side-scroll-content mt40 fadein">
+        <ul class="container side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
                 <p class="content-card-title">1.事務所へのご見学</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -276,7 +276,7 @@ get_header(); ?>
                 サービス利用開始までの流れ
             </h2>
         </div>
-        <ul class="side-scroll-content mt40 fadein">
+        <ul class="container side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
                 <p class="content-card-title">1.グループホームへのご見学</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -343,7 +343,7 @@ get_header(); ?>
                 サービス利用開始までの流れ
             </h2>
         </div>
-        <ul class="side-scroll-content mt40 fadein">
+        <ul class="container side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
 				<p class="content-card-title">1.サービスの申請</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -383,7 +383,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th colspan="2">指定特定相談支援事業所らぼうぇる</th>
+                                <th colspan="2">指定特定相談支援事業所らぼうぇる</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -429,7 +429,7 @@ get_header(); ?>
                 サービス利用開始までの流れ
             </h2>
         </div>
-        <ul class="side-scroll-content mt40 fadein">
+        <ul class="container side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
 				<p class="content-card-title">1.ラボカフェへのご見学</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -466,7 +466,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th colspan="2">ラボカフェ</th>
+                                <th colspan="2">ラボカフェ</th>
                             </tr>
                         </thead>
                         <tbody>
